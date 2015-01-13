@@ -1,0 +1,20 @@
+﻿RotaryAppShell1
+
+
+winexe
+C#
+.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\
+RotaryAppShell1
+none
+false
+DEBUG;TRACE
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\App.xaml
+111312236820
+
+26-870648113
+30-2052607696
+ControlStyles.xaml;MainWindow.xaml;Resources\GlassButton.xaml;Views\AboutInfoView.xaml;Views\BioView.xaml;Views\HomeView.xaml;Views\ScreensaverView.xaml;Views\SearchByCountryView.xaml;Views\SearchByTextEntryView.xaml;Views\SearchByVideoView.xaml;Views\WelcomeVideoView.xaml;
+
+False
+

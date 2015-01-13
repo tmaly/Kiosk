@@ -1,0 +1,52 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+     xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+     xmlns:rs='urn:schemas-microsoft-com:rowset'
+     xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+   <s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30'>
+      <s:AttributeType name='ows_ID' rs:name='ID' rs:number='1'>
+         <s:datatype dt:type='i4' dt:maxLength='4' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_LinkTitle' rs:name='Year' rs:number='2'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_1_PathRI' rs:name='Image Path' rs:number='3'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_1_DescriptionRI' rs:name='Image Description' rs:number='4'>
+         <s:datatype dt:type='string' dt:maxLength='1073741823' />
+      </s:AttributeType>
+   </s:ElementType>
+</s:Schema>
+<rs:data>
+   <z:row ows_ID='3' ows_LinkTitle='1917' ows_Image_1_PathRI='Timeline/C005366-cropped.jpg' ows_Image_1_DescriptionRI='At the convention in Atlanta, Georgia, USA, Arch Klumph proposes the establishment of an endowment “for the purpose of doing good in the world.” The endowment receives its first donation: $26.50 from the Rotary Club of Kansas City, Missouri, USA.' />
+   <z:row ows_ID='4' ows_LinkTitle='1928' ows_Image_1_PathRI='Timeline/C002739b.jpg' ows_Image_1_DescriptionRI='The Rotary Foundation is formally named and the first Trustees are appointed. Arch Klumph is the first Trustee chair and serves for five years. ' />
+   <z:row ows_ID='5' ows_LinkTitle='1930' ows_Image_1_PathRI='Timeline/C002632a.jpg' ows_Image_1_DescriptionRI='The Foundation awards its first grant: $500 to the International Society for Crippled Children (Easter Seals). The Society was started by Rotarian Edgar F. “Daddy” Allen, of Elyria, Ohio. Rotary founder Paul Harris served on its first Board of Directors. ' />
+   <z:row ows_ID='7' ows_LinkTitle='1947' ows_Image_1_PathRI='Timeline/AC0031-B35-F12-014-telegram.jpg' ows_Image_1_DescriptionRI='Rotary founder Paul Harris dies in January. In his memory, Rotarians contribute more than $1 million to the Foundation in about 18 months. The fund supports the first Foundation program: scholarships for graduate students, starting in the 1947-48 academic year.' />
+   <z:row ows_ID='9' ows_LinkTitle='1951' ows_Image_1_PathRI='Timeline/donorPlaqueLevel1.png' ows_Image_1_DescriptionRI='This is to test the demo information changes are loading content changes.' />
+   <z:row ows_ID='8' ows_LinkTitle='1957' ows_Image_1_PathRI='Timeline/PHF-medal.jpg' ows_Image_1_DescriptionRI='Paul Harris Fellow recognition begins as a way to recognize individuals who give $1,000 or more to The Foundation. Later, Multiple Paul Harris Fellow recognition is added to recognize additional gifts, up to $10,000. In 2006, The Foundation names 34 Rotarians, one from each of Rotary’s 34 zones, as the one-millionth Paul Harris Fellow.' />
+   <z:row ows_ID='10' ows_LinkTitle='1965' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='6' ows_LinkTitle='1978' ows_Image_1_PathRI='Timeline/AV25383.jpg' ows_Image_1_DescriptionRI='The Health, Hunger and Humanity (3-H) program is created. In 1979, Jim Bomar, 1978-79 RI President and 1982-83 Trustee Chair, kicks off the first project: immunize more than six million children in the Philippines against polio.' />
+   <z:row ows_ID='11' ows_LinkTitle='1980' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='12' ows_LinkTitle='1981' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='13' ows_LinkTitle='1983' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='14' ows_LinkTitle='1985' ows_Image_1_PathRI='Timeline/C013848.jpg' ows_Image_1_DescriptionRI='The PolioPlus program is launched. At the Convention in Kansas City, Missouri, USA, Dr. Albert Sabin receives the Rotary Award for World Understanding. In his acceptance speech, Sabin urges Rotarians to accelerate the program of mass immunizations.' />
+   <z:row ows_ID='15' ows_LinkTitle='1987' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='16' ows_LinkTitle='1988' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='Spurred by Rotary’s fundraising success, the World Health Assembly sets the goal of worldwide polio eradication, which launched the Global Polio Eradication Initiative (GPEI). In five years, 500 million children are immunized against polio, thanks to the efforts of the GPEI.
+The Foundation sponsors the first Rotary Peace Forum, which was held in Evanston, Illinois, USA
+' />
+   <z:row ows_ID='17' ows_LinkTitle='1994' ows_Image_1_PathRI='Timeline/AV14000.jpg' ows_Image_1_DescriptionRI='The last person to contract the wild poliovirus in the Western Hemisphere was two-year-old Luis Fermín Tenorio of Peru. Following the required three-year surveillance period, the PAHO declares the Western hemisphere polio-free in September 1994.' />
+   <z:row ows_ID='18' ows_LinkTitle='1995' ows_Image_1_PathRI='Timeline/TimelineDemoPlaceholder.jpg' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='19' ows_LinkTitle='1999' ows_Image_1_PathRI='Timeline/20110904_JP_048.JPG' ows_Image_1_DescriptionRI='The Rotary Peace Centers are launched. The inaugural class of Peace Fellows begin their studies in the fall of 2002. Rotary Peace Fellows at the International Christian University) in Mitaka, Tokyo, Japan (shown here with 2012-13 RI President Tanaka) and five other Center have the opportunity to study peaceful resolutions to war, conflict, poverty and the suppression of human rights.
+The Trustees create the Bequest Society, which recognizes those who leave at least $10,000 to The Rotary Foundation.
+' />
+   <z:row ows_ID='20' ows_LinkTitle='2000' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='21' ows_LinkTitle='2002' ows_Image_1_DescriptionRI='PLACEHOLDER TEXT' />
+   <z:row ows_ID='22' ows_LinkTitle='2004' ows_Image_1_PathRI='Timeline/20120508_TH_009.JPG' ows_Image_1_DescriptionRI='The Trustees create the Arch Klumph Society to recognize individuals, couples, and organizations who have contributed $250,000 or more to The Rotary Foundation. AKS members from around the world have an opportunity to meet during a special dinner at the Convention. 
+The Trustess also establish Every Rotarian, Every Year, an initiative designed to inspire all Rotarians to contribute to the Annual Fund every year.' />
+   <z:row ows_ID='23' ows_LinkTitle='2007' ows_Image_1_DescriptionRI='The Bill &amp; Melinda Gates Foundation gives Rotary a $100 million challenge grant for polio eradication. In 2009, the Gates Foundation gives Rotary an additional $255 million and increases the challenge to $200 million in 2012, Rotary meets and exceeds the challenge, raising $228 million for polio eradication.' />
+   <z:row ows_ID='24' ows_LinkTitle='2010' ows_Image_1_PathRI=' ' ows_Image_1_DescriptionRI='The three-year Future Vision pilot begins, with 100 districts participating. The new grant model features three kinds of grants—district, global, and packaged (discontinued after the pilot). The pilot ends in 2013; all districts adopt the new model are encouraged to seek projects in the six areas of focus. The Matching Grants, District Simplified Grants, Ambassadorial Scholars, and Group Study Exchange programs end, though many of their features are included in the new grant model.' />
+   <z:row ows_ID='25' ows_LinkTitle='2012' ows_Image_1_DescriptionRI='India goes a full year without a new polio case and is removed from the polio-endemic list. Following the remainder of the required three-year surveillance period, the Southeast Asia region is declared polio-free in 2014.' />
+   <z:row ows_ID='2' ows_LinkTitle='2013' ows_Image_1_PathRI='Timeline/20130625_PT_231.jpg' ows_Image_1_DescriptionRI='At the Rotary convention in Lisbon, the Gates Foundation announces it will match Rotary’s contributions to polio eradication 2 to 1 up to $35 million a year for five years (2013-2018). Rotary takes the challenge under the banner of Make History Today.' />
+</rs:data>
+</xml>

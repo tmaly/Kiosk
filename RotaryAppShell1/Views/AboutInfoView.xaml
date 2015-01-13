@@ -1,0 +1,22 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="Kiosk.Views.AboutInfoView" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush>
+                <ImageBrush.ImageSource>
+                    <ImageSource>../Config/PageBackgrounds/back2.jpg</ImageSource>
+                </ImageBrush.ImageSource>
+            </ImageBrush>
+        </Grid.Background>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Button x:Name="buttonSelectBack" Command="{Binding NavToNewControlCommand}" CommandParameter="Back" Margin="50,50" Background="Coral" BorderThickness="5" BorderBrush="Black" Content="Back"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

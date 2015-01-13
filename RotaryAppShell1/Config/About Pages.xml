@@ -1,0 +1,172 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+     xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+     xmlns:rs='urn:schemas-microsoft-com:rowset'
+     xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+   <s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30'>
+      <s:AttributeType name='ows_ID' rs:name='ID' rs:number='1'>
+         <s:datatype dt:type='i4' dt:maxLength='4' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_LinkTitle' rs:name='Folder Name' rs:number='2'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_DisplayTitleRI' rs:name='Display Title' rs:number='3'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_DescriptionRI' rs:name='Description' rs:number='4'>
+         <s:datatype dt:type='string' dt:maxLength='1073741823' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_1_PathRI' rs:name='Image 1 Path' rs:number='5'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_1_DescriptionRI' rs:name='Image 1 Description' rs:number='6'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_2_PathRI' rs:name='Image 2 Path' rs:number='7'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_2_DescriptionRI' rs:name='Image 2 Description' rs:number='8'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_3_PathRI' rs:name='Image 3 Path' rs:number='9'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_3_DescriptionRI' rs:name='Image 3 Description' rs:number='10'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_4_PathRI' rs:name='Image 4 Path' rs:number='11'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_4_DescriptionRI' rs:name='Image 4 Description' rs:number='12'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_5_PathRI' rs:name='Image 5 Path' rs:number='13'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_5_DescriptionRI' rs:name='Image 5 Description' rs:number='14'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_6_PathRI' rs:name='Image 6 Path' rs:number='15'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_6_DescriptionRI' rs:name='Image 6 Description' rs:number='16'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_7_PathRI' rs:name='Image 7 Path' rs:number='17'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_7_DescriptionRI' rs:name='Image 7 Description' rs:number='18'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_8_PathRI' rs:name='Image 8 Path' rs:number='19'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_8_DescriptionRI' rs:name='Image 8 Description' rs:number='20'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_9_PathRI' rs:name='Image 9 Path' rs:number='21'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_9_DescriptionRI' rs:name='Image 9 Description' rs:number='22'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_10_PathRI' rs:name='Image 10 Path' rs:number='23'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_10_DescriptionRI' rs:name='Image 10 Description' rs:number='24'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_11_PathRI' rs:name='Image 11 Path' rs:number='25'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_11_DescriptionRI' rs:name='Image 11 Description' rs:number='26'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_12_PathRI' rs:name='Image 12 Path' rs:number='27'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_12_DescriptionRI' rs:name='Image 12 Description' rs:number='28'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_13_PathRI' rs:name='Image 13 Path' rs:number='29'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_13_DescriptionRI' rs:name='Image 13 Description' rs:number='30'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_14_PathRI' rs:name='Image 14 Path' rs:number='31'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_14_DescriptionRI' rs:name='Image 14 Description' rs:number='32'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_15_PathRI' rs:name='Image 15 Path' rs:number='33'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_15_DescriptionRI' rs:name='Image 15 Description' rs:number='34'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_16_PathRI' rs:name='Image 16 Path' rs:number='35'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_16_DescriptionRI' rs:name='Image 16 DescriptionRI' rs:number='36'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_17_PathRI' rs:name='Image 17 Path' rs:number='37'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_17_DescriptionRI' rs:name='Image 17 DescriptionRI' rs:number='38'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_18_PathRI' rs:name='Image 18 Path' rs:number='39'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_18_DescriptionRI' rs:name='Image 18 DescriptionRI' rs:number='40'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_19_PathRI' rs:name='Image 19 Path' rs:number='41'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_19_DescriptionRI' rs:name='Image 19 Description' rs:number='42'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_20_PathRI' rs:name='Image 20 Path' rs:number='43'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_Image_20_DescriptionRI' rs:name='Image 20 Description' rs:number='44'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+   </s:ElementType>
+</s:Schema>
+<rs:data>
+   <z:row ows_ID='2' ows_LinkTitle='AboutKlumph' ows_DisplayTitleRI='Arch C. Klumph' ows_DescriptionRI='&lt;div&gt;Arch C. Klumph, the father of The Rotary Foundation, was born in 1869 in Conneautville, Pennsylvania and later moved to Cleveland, Ohio. When he was a teenager, a friend’s father overheard Klumph planning a budget for a variety show and offered him a job at the Cuyahoga Lumber Company, where Klumph would later become president and, eventually, sole owner. Klumph steadily rose to prominence leading industrial companies and serving on the boards of professional and cultural organizations. &lt;br&gt;&lt;br&gt;Klumph became a charter member of the Rotary Club of Cleveland in 1911 and club president in 1913. The next year, he was elected a director of the International Association of Rotary Clubs (as Rotary was then called) and served as its president in 1916-17. &lt;br&gt;&lt;br&gt;At the 1917 Rotary convention, Klumph defined several areas he considered essential for Rotary’s future growth and success – including an endowment: “…it seems eminently proper that we should accept endowments for the purpose of doing good in the world, in charitable, educational or other avenues of community progress…” Through Klumph&#39;s simple yet profound statement, the Rotary Endowment Fund, which would later become The Rotary Foundation, was born. The first contribution was made by the Rotary Club of Kansas City in 1917. Klumph passed away on 3 June 1951, but his influence lives on through the Foundation.&lt;/div&gt;' ows_Image_1_PathRI='About Pages/AboutKlumph/AV03241.jpg' ows_Image_1_DescriptionRI='Arch C. Klumph as a young man.' ows_Image_2_PathRI='About Pages/AboutKlumph/01_Cert_to_honor_ACK.jpg' ows_Image_2_DescriptionRI='Klumph joined the Rotary Club of Cleveland in 1911 and was club' ows_Image_3_PathRI='About Pages/AboutKlumph/02_Cuyahoga_Lumber.jpg' ows_Image_3_DescriptionRI='Klumph on the cover of The Rotarian magazine, September 1916.' ows_Image_4_PathRI='About Pages/AboutKlumph/03_The_Rotarian.jpg' ows_Image_4_DescriptionRI='Klumph on the cover of The Rotarian magazine, September 1916.' ows_Image_5_PathRI='About Pages/AboutKlumph/04_Board_of_Directors.jpg' ows_Image_5_DescriptionRI='1916-17 RI Board of Directors. Back row: 1st Vice-President F.W. Galbraith, 3rd Vice-President E. Leslie Pidgeon, Secretary Chesley R. Perry, 2nd Vice-President Guy Gundaker. Front row: President Arch C. Klumph, 1915-16 President Allen D. Albert.' ows_Image_6_PathRI='About Pages/AboutKlumph/006402.jpg' ows_Image_6_DescriptionRI='At the 1917 Rotary convention in Atlanta, Klumph noted that &quot;Rotary is at the present time entering a new era&quot; and defined several areas he considered essential for Rotary’s future growth and success – including an endowment.' ows_Image_7_PathRI='About Pages/AboutKlumph/06_Trip_to_London.jpg' ows_Image_7_DescriptionRI='Klumph with fellow Rotarians in England, circa 1921.' ows_Image_8_PathRI='About Pages/AboutKlumph/AC0031-B47-F16-042-1928KlumphtoStruthersletter.jpg' ows_Image_8_DescriptionRI='In 1928, Klumph noted three accomplishments that gave him &quot;more satisfaction than any other contributions to Rotary.&quot; Surprisingly, launching the Foundation wasn&#39;t among them. Instead, he emphasized his role in writing Rotary&#39;s constitution, establishing ' ows_Image_9_PathRI='About Pages/AboutKlumph/05_First_Six_President.jpg' ows_Image_9_DescriptionRI='The first six Presidents of Rotary International at the 1939 convention in Cleveland, Ohio. From left:  Paul Harris, Glenn Mead, Russell Greiner, Frank Mulholland, Allen Albert, and Arch C. Klumph.' ows_Image_10_PathRI='About Pages/AboutKlumph/07_ACK_in_office.jpg' ows_Image_10_DescriptionRI='Klumph in his office, Cleveland, Ohio, circa 1950.' ows_Image_11_PathRI='About Pages/AboutKlumph/08_ACK_practicing_flute.jpg' ows_Image_11_DescriptionRI='Klumph taught himself to play the flute as a young adult and went on to play with the Cleveland Philharmonic Orchestra — an avocation he continued for 14 years. He later helped organize the Cleveland Symphony.' />
+   <z:row ows_ID='3' ows_LinkTitle='AboutRotary' ows_DisplayTitleRI='About The Rotary Foundation' ows_DescriptionRI='&lt;div&gt;Arch C. Klumph Society members play a vital role in helping The Rotary Foundation carry out its mission: to enable Rotarians to advance world understanding, goodwill, and peace through the improvement of health, the support of education, and the alleviation of poverty. 
+&lt;br&gt;
+&lt;br&gt;In 1917, RI President Arch C. Klumph proposed the creation of an endowment for “doing good in the world.”
+&lt;br&gt;
+&lt;br&gt;Since then, Foundation projects have met a wide range of human needs, from clean drinking water and medical equipment to literacy training and microenterprise loans. The Foundation’s Rotary Peace Centers prepare Rotary Peace Fellows for leadership roles in resolving conflicts all over the world.
+&lt;br&gt;
+&lt;br&gt;PolioPlus, launched in 1985, is helping to immunize all children against polio. Eradicating this crippling and sometimes fatal disease remains Rotary International’s top priority.
+&lt;br&gt;
+&lt;br&gt;Having taken Klumph’s words as its motto in 2006, the Foundation reviewed its programs for sustainability. In 2013, it implemented a new grant model that enables Rotary members to fund sustainable projects in six areas of focus: promoting peace, fighting disease, providing clean water, saving mothers and children, supporting education, and growing local economies.&lt;/div&gt;' ows_Image_1_PathRI='About Pages/AboutRotary/01_Brown.jpg' ows_Image_2_PathRI='About Pages/AboutRotary/02_3H_India.jpg' ows_Image_3_PathRI='About Pages/AboutRotary/03_Romania.JPG' ows_Image_4_PathRI='About Pages/AboutRotary/04_Honduras.jpg' ows_Image_5_PathRI='About Pages/AboutRotary/05_Tajikstan.jpg' ows_Image_6_PathRI='About Pages/AboutRotary/06_Brazil_Bakery.jpg' ows_Image_7_PathRI='About Pages/AboutRotary/07_Mongolia.jpg' ows_Image_8_PathRI='About Pages/AboutRotary/08_Niger.JPG' ows_Image_9_PathRI='About Pages/AboutRotary/09_Bridge_Peru.jpg' ows_Image_10_PathRI='About Pages/AboutRotary/10_Erin_Raab.JPG' ows_Image_11_PathRI='About Pages/AboutRotary/11_Gani_Abazi.jpg' ows_Image_12_PathRI='About Pages/AboutRotary/12_Spurway.jpg' ows_Image_13_PathRI='About Pages/AboutRotary/13_Logioco.jpg' ows_Image_14_PathRI='About Pages/AboutRotary/14_Zambia_GSE.jpg' ows_Image_15_PathRI='About Pages/AboutRotary/14_Zambia_GSE1.jpg' ows_Image_16_PathRI='About Pages/AboutRotary/15_Dutch_GSE.jpg' />
+   <z:row ows_ID='4' ows_LinkTitle='AboutSociety' ows_DisplayTitleRI='About the Arch Klumph Society' ows_DescriptionRI='&lt;div&gt;The Rotary Foundation established the Arch C. Klumph Society in 2004 to recognize Major Donors who cumulatively contribute $250,000 or more. Today, the society numbers more than 500 distinguished members from places around the globe, including Australia, Brazil, Canada, India, Italy, Japan, Korea, Mexico, Nigeria, Spain, Taiwan, and the United States. With their help, children and families are living healthier lives, Rotary Peace Fellows are learning to build a more peaceful world, and the Foundation is working to achieve its promise of a polio-free world.&amp;nbsp; 
+&lt;br&gt;
+&lt;br&gt;Arch C. Klumph Society members enjoy a variety of benefits in recognition of their generous Foundation support. Members’ portraits are displayed permanently in the Arch C. Klumph Gallery on the 17th floor at Rotary International World Headquarters. The Foundation hosts a portrait installation ceremony to celebrate the induction of each member into the society. 
+&lt;br&gt;
+&lt;br&gt;All members are invited to attend the annual Arch C. Klumph Society Dinner, held during the Rotary International Convention. This intimate event provides an excellent opportunity for members to meet like-minded Rotary leaders and to celebrate all that the Foundation has done to improve people’s lives.
+&lt;br&gt;
+&lt;br&gt;Society members also receive annual stewardship reports summarizing their personal contribution history, describing the good works their gifts have made possible, and outlining the Foundation’s latest programs and activities.&lt;/div&gt;' ows_Image_1_PathRI='About Pages/AboutSociety/01_Dinner_2007.jpg' ows_Image_2_PathRI='About Pages/AboutSociety/02_Abdalla.jpg' ows_Image_3_PathRI='About Pages/AboutSociety/03_FranklinInduct.jpg' ows_Image_4_PathRI='About Pages/AboutSociety/03_Membership_Dinner09.jpg' ows_Image_5_PathRI='About Pages/AboutSociety/04_Pina.jpg' ows_Image_6_PathRI='About Pages/AboutSociety/05_ACK_Korea_Day.jpg' ows_Image_7_PathRI='About Pages/AboutSociety/06_Birla.jpg' ows_Image_8_PathRI='About Pages/AboutSociety/07_Patel.jpg' ows_Image_9_PathRI='About Pages/AboutSociety/08_Dinner_2008.jpg' ows_Image_10_PathRI='About Pages/AboutSociety/09_Hsu.jpg' ows_Image_11_PathRI='About Pages/AboutSociety/10_Membership_Majiyagbe.jpg' ows_Image_12_PathRI='About Pages/AboutSociety/11_Hahn.jpg' />
+   <z:row ows_ID='5' ows_LinkTitle='BecominganArchC.KlumphSocietyMember' ows_DisplayTitleRI='Becoming A Member' ows_Image_1_PathRI='About Pages/BecominganArchC.KlumphSocietyMember/08_Dinner08.jpg' ows_Image_2_PathRI='About Pages/BecominganArchC.KlumphSocietyMember/10_Dinner08.jpg' ows_Image_3_PathRI='About Pages/BecominganArchC.KlumphSocietyMember/15_Dinner07.jpg' ows_Image_4_PathRI='About Pages/BecominganArchC.KlumphSocietyMember/20100622_CA_204.jpg' ows_Image_5_PathRI='About Pages/BecominganArchC.KlumphSocietyMember/20100622_CA_206.jpg' />
+   <z:row ows_ID='6' ows_LinkTitle='DonorRecognition' ows_DisplayTitleRI='Donor Recognition' ows_DescriptionRI='With the important contributions of these generous donors, The Rotary Foundation is fulfilling its promise of creating a polio-free world, helping children and families live healthier lives through Rotary&#39;s Humanitarian Grants Program, and educating young people about cultures worldwide. Rotary World Peace Fellows are engaging in the study of peace building, which may allow them to participate in resolution efforts in some of the world&#39;s most challenging situations.' />
+   <z:row ows_ID='7' ows_LinkTitle='PolioPlus' ows_DisplayTitleRI='Polio Plus' ows_DescriptionRI='PolioPlus is working to achieve Rotary’s top priority: the worldwide eradication of polio. Launched in 1985, the program is a key part of the Global Polio Eradication Initiative, which is spearheaded by national governments, Rotary International, the World Health Organization, UNICEF, and the U.S. Centers for Disease Control and Prevention, and supported by key partners including the Bill &amp;amp; Melinda Gates Foundation. Rotary has helped immunize more than 2.5 billion children against polio. It has also contributed more than $1.2 billion and helped secure over $9 billion from donor governments for efforts to eradicate the disease.
+
+PolioPlus grants support National Immunization Days and other eradication efforts in polio-endemic and high-risk countries.
+
+The End Polio Now – Make History Today funding campaign is an extension of Rotary’s partnership with the Gates Foundation. From 2013 to 2018, every $1 that Rotary commits to the World Health Organization and UNICEF in direct support for polio immunization will be matched 2-to-1, up to $35 million per year, by the Gates Foundation. If fully realized, this matching campaign will provide over half a billion dollars toward our goal of a polio-free world.' ows_Image_1_PathRI='About Pages/Polioplus/01_polio_press_026.JPG' ows_Image_2_PathRI='About Pages/Polioplus/02_IMG_0639.jpg' ows_Image_3_PathRI='About Pages/Polioplus/03_Rural_Bihar_48.jpg' ows_Image_4_PathRI='About Pages/Polioplus/04_Scott_Kapur_leaders.jpg' ows_Image_5_PathRI='About Pages/Polioplus/05_Dr_Khan_March2008.jpg' ows_Image_6_PathRI='About Pages/Polioplus/06_IMG_5122.jpg' ows_Image_7_PathRI='About Pages/Polioplus/07_IMG_0038.jpg' ows_Image_8_PathRI='About Pages/Polioplus/08_EPN708Nigeria.jpg' ows_Image_9_PathRI='About Pages/Polioplus/09_WebSomalia1.jpg' ows_Image_10_PathRI='About Pages/Polioplus/10_trfar10Egypt.jpg' ows_Image_11_PathRI='About Pages/Polioplus/11_SK_Prairie.jpg' />
+   <z:row ows_ID='8' ows_LinkTitle='RotaryCenters' ows_DisplayTitleRI='Rotary Peace Centers' ows_DescriptionRI='The Rotary Peace Centers program, launched in 2002, offers individuals around the world the opportunity to pursue a master’s degree in fields related to peace and conflict prevention and resolution. Each year, Rotary awards up to 50 master’s fellowships to one of five peace centers, at: Duke University and University of North Carolina at Chapel Hill, USA (joint center); International Christian University, Tokyo; University of Bradford, West Yorkshire, England; Uppsala University, Sweden; and University of Queensland, Brisbane, Australia.
+
+In addition, Rotary offers individuals with extensive experience in peace-related fields a three-month certificate program in peace and conflict resolution at Chulalongkorn University in Bangkok. 
+
+Some of the world’s brightest, most dedicated professionals study at our Rotary Peace Centers. Committed to advancing peace, they often go on to serve as leaders in national governments, nongovernmental organizations, the military, law enforcement, and international agencies like the United Nations and World Bank.' ows_Image_1_PathRI='About Pages/RotaryCenters/01_Allison.jpg' ows_Image_2_PathRI='About Pages/RotaryCenters/02_Pereira.jpg' ows_Image_3_PathRI='About Pages/RotaryCenters/03_Kroes.JPG' ows_Image_4_PathRI='About Pages/RotaryCenters/04_Kishitani.jpg' ows_Image_5_PathRI='About Pages/RotaryCenters/05-Heang.jpg' ows_Image_6_PathRI='About Pages/RotaryCenters/06-Khalifa.jpg' ows_Image_7_PathRI='About Pages/RotaryCenters/08-Tamari.jpg' />
+</rs:data>
+</xml>

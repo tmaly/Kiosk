@@ -1,0 +1,110 @@
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.exe.config
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.exe
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.pdb
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1_MarkupCompile.cache
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.g.resources
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.Properties.Resources.resources
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.exe
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.pdb
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\HomeView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\HomeView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\AboutInfoView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\BioView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\ScreensaverView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByCountryView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByTextEntryView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByVideoView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\WelcomeVideoView.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\AboutInfoView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\BioView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\ScreensaverView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByCountryView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByTextEntryView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByVideoView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\WelcomeVideoView.g.cs
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\System.Windows.Interactivity.dll
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\System.Windows.Interactivity.xml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Resources\GlassButton.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\App.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\ControlStyles.baml
+\\vmware-host\Shared Folders\Documents\dev\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.csprojResolveAssemblyReference.cache
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.exe.config
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.exe
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.pdb
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.exe
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\RotaryAppShell1.pdb
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\System.Windows.Interactivity.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\System.Windows.Interactivity.xml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.csprojResolveAssemblyReference.cache
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\ControlStyles.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\MainWindow.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Resources\GlassButton.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\AboutInfoView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\BioView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\HomeView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\ScreensaverView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByCountryView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByTextEntryView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByVideoView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\WelcomeVideoView.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\App.baml
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\MainWindow.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\AboutInfoView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\BioView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\HomeView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\ScreensaverView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByCountryView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByTextEntryView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\SearchByVideoView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\Views\WelcomeVideoView.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\App.g.cs
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1_MarkupCompile.cache
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.g.resources
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.Properties.Resources.resources
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.csproj.GenerateResource.Cache
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\obj\Debug\RotaryAppShell1.exe.licenses
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Clients\Rotary\Kiosk\RotaryAppShell1\bin\Debug\RotaryAppShell1.exe.config
+C:\Clients\Rotary\Kiosk\RotaryAppShell1\obj\Debug\RotaryAppShell1.exe
+C:\Clients\Rotary\Kiosk\RotaryAppShell1\obj\Debug\RotaryAppShell1.pdb

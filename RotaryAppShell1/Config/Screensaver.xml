@@ -1,0 +1,27 @@
+<xml xmlns:s='uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882'
+     xmlns:dt='uuid:C2F41010-65B3-11d1-A29F-00AA00C14882'
+     xmlns:rs='urn:schemas-microsoft-com:rowset'
+     xmlns:z='#RowsetSchema'>
+<s:Schema id='RowsetSchema'>
+   <s:ElementType name='row' content='eltOnly' rs:CommandTimeout='30'>
+      <s:AttributeType name='ows_ID' rs:name='ID' rs:number='1'>
+         <s:datatype dt:type='i4' dt:maxLength='4' />
+      </s:AttributeType>
+      <s:AttributeType name='ows_LinkTitle' rs:name='Image Path' rs:number='2'>
+         <s:datatype dt:type='string' dt:maxLength='512' />
+      </s:AttributeType>
+   </s:ElementType>
+</s:Schema>
+<rs:data>
+   <z:row ows_ID='5' ows_LinkTitle='Screensaver/ss1.jpg' />
+   <z:row ows_ID='6' ows_LinkTitle='Screensaver/ss2.jpg' />
+   <z:row ows_ID='7' ows_LinkTitle='Screensaver/ss3.jpg' />
+   <z:row ows_ID='8' ows_LinkTitle='Screensaver/ss4.jpg' />
+   <z:row ows_ID='9' ows_LinkTitle='Screensaver/ss5.jpg' />
+   <z:row ows_ID='10' ows_LinkTitle='Screensaver/ss6.jpg' />
+   <z:row ows_ID='11' ows_LinkTitle='Screensaver/ss7.jpg' />
+   <z:row ows_ID='12' ows_LinkTitle='Screensaver/ss8.jpg' />
+   <z:row ows_ID='13' ows_LinkTitle='Screensaver/ss9.jpg' />
+   <z:row ows_ID='14' ows_LinkTitle='Screensaver/ss10.jpg' />
+</rs:data>
+</xml>
