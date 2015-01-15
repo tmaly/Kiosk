@@ -8,10 +8,10 @@ namespace Kiosk.Views
     /// </summary>
     public partial class SearchByCountryView : UserControl
     {
-        public SearchByCountryView()
+        public SearchByCountryView(MasterWindowViewModel mwvm)
         {
             InitializeComponent();
-            DataContext = new SearchByCountryViewModel();
+            DataContext = new SearchByCountryViewModel(mwvm);
         }
     }
 }

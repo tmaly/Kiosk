@@ -8,6 +8,8 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 //using Kiosk.Annotations;
 using Kiosk.Views;
+using System.Collections.ObjectModel;
+using GalaSoft.MvvmLight;
 
 namespace Kiosk.ViewModels
 {
@@ -17,6 +19,14 @@ namespace Kiosk.ViewModels
         public WelcomeVideoViewModel(MasterWindowViewModel parentVm)
         {
             this.parentVm = parentVm;
+        }
+
+        public string videoPath
+        {
+            get 
+            {
+                return @"C:\Clients\Rotary\Kiosk\Assests\Video\ThisCloseHD.mp4";
+            }
         }
 
         private RelayCommand<string> navToNewControlCommand;

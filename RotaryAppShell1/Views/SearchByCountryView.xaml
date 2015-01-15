@@ -8,8 +8,15 @@
     <Grid>
         <Grid.Background>
             <ImageBrush>
-                <ImageBrush.ImageSource>../Config/PageBackgrounds/back5.jpeg</ImageBrush.ImageSource>
+                <ImageBrush.ImageSource>../Config/PageBackgrounds/rotaryMap.jpg</ImageBrush.ImageSource>
             </ImageBrush>
         </Grid.Background>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="bottom">
+            <Button x:Name="searchMap" Command="{Binding NavToNewControlCommand}" CommandParameter="searchName" Content="Search By Name" Width="175" Height="120" Margin="10,10,10,10" />
+            <Button x:Name="searchVideo" Command="{Binding NavToNewControlCommand}" CommandParameter="SearchVideo" Content="Search By Video" Width="175" Height="120" Margin="10,10,10,10" />
+            <Button x:Name="buttonHome" Command="{Binding NavToNewControlCommand}" CommandParameter="Home" Content="Home" Width="175" Height="120" Margin="10,10,10,10"/>
+        </StackPanel>
+        <TextBox HorizontalAlignment="Left" Height="93" Margin="281,950,0,0" TextWrapping="Wrap" Text="Donor Slide View" VerticalAlignment="Top" Width="1455" FontWeight="Bold"/>
+
     </Grid>
 </UserControl>

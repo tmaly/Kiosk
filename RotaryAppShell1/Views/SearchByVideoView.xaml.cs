@@ -8,10 +8,15 @@ namespace Kiosk.Views
     /// </summary>
     public partial class SearchByVideoView : UserControl
     {
-        public SearchByVideoView()
+        public SearchByVideoView(MasterWindowViewModel mwvm)
         {
             InitializeComponent();
-            DataContext = new SearchByVideoViewModel();
+            DataContext = new SearchByVideoViewModel(mwvm);
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

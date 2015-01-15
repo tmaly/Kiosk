@@ -15,9 +15,19 @@
                 <ImageBrush.ImageSource>../Config/PageBackgrounds/default.jpg</ImageBrush.ImageSource>
             </ImageBrush>
         </Grid.Background>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,824,0,58">
-            <Button x:Name="buttonHome" Command="{Binding NavToNewControlCommand}" CommandParameter="Home" Content="Home" Width="175" Height="120" Margin="10,10,10,10" RenderTransformOrigin="0.449,1.516"/>
+        
+        <MediaElement 
+            Name="video" 
+            Source="{Binding videoPath}"
+            LoadedBehavior="Play"  
+            HorizontalAlignment="Center" Height="572" Margin="0,0,0,0" Width="792" 
+            Grid.Row="0" 
+            Grid.Column="0">
+        </MediaElement>
+        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="bottom">
+            <Button x:Name="buttonHome" Command="{Binding NavToNewControlCommand}" CommandParameter="Home" Content="Home" Width="175" Height="120" Margin="10,10,10,10"/>
         </StackPanel>
-        <Image x:Name="mockVideo" HorizontalAlignment="Center" Height="572" Margin="0,0,0,0" Width="792" Source="pack://application:,,,/Kiosk;component/Config/PageBackgrounds/mockVideo.JPG" VerticalAlignment="Center"/>
+        
     </Grid>
 </UserControl>

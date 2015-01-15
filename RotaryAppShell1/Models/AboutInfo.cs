@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GalaSoft.MvvmLight;
+using Kiosk.Common.XML;
+using GalaSoft.MvvmLight.Command;
 
 namespace Kiosk.Models
 {
@@ -16,4 +18,21 @@ namespace Kiosk.Models
         public List<String> PdfImages { get; set; }
         public String Video { get; set; }
     }
+
+    public class AboutButton : ObservableObject
+    {
+        public AboutButton() { }
+
+        [XMLParser("ows_ID")]
+        public String ID { get; set; }
+
+        [XMLParser("ows_DisplayTitleRI")]
+        public String Name { get; set; }
+
+        [XMLParser("ows_LinkTitle")]
+        public String Command { get; set; }
+
+        public RelayCommand<string> VMLink { get; set; }
+    }
+
 }

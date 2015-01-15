@@ -8,8 +8,17 @@
     <Grid>
         <Grid.Background>
             <ImageBrush>
-                <ImageBrush.ImageSource>../Config/PageBackgrounds/back5.jpeg</ImageBrush.ImageSource>
+                <ImageBrush.ImageSource>../Config/PageBackgrounds/default.jpg</ImageBrush.ImageSource>
             </ImageBrush>
         </Grid.Background>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="bottom">
+            <Button x:Name="searchMap" Command="{Binding NavToNewControlCommand}" CommandParameter="searchName" Content="Search By Name" Width="175" Height="120" Margin="10,10,10,10" />
+            <Button x:Name="searchCountry" Command="{Binding NavToNewControlCommand}" CommandParameter="searchCountry" Content="Search By Country" Width="175" Height="120" Margin="10,10,10,10" />
+            <Button x:Name="buttonHome" Command="{Binding NavToNewControlCommand}" CommandParameter="Home" Content="Back" Width="175" Height="120" Margin="10,10,10,10"/>
+        </StackPanel>
+        <TextBox HorizontalAlignment="Left" Height="943" Margin="385,44,0,0" TextWrapping="Wrap" Text="Video List" VerticalAlignment="Top" Width="828" FontWeight="Bold" />
+
     </Grid>
+
 </UserControl>

@@ -32,13 +32,20 @@ namespace Kiosk.ViewModels
                                               {
                                                 case "Home":
                                                 {
-                                                    parentVm.NavBack();
+                                                    //parentVm.NavBack();
+                                                    parentVm.CurrentUserControl = new HomeView(this.parentVm);
                                                     break;
                                                 }
 
-                                                case "Bio":
+                                                case "searchMap":
                                                 {
-                                                    parentVm.CurrentUserControl = new BioView();
+                                                    parentVm.CurrentUserControl = new SearchByCountryView(this.parentVm);
+                                                    break;
+                                                }
+
+                                                case "searchVideo":
+                                                {
+                                                    parentVm.CurrentUserControl = new SearchByVideoView(this.parentVm);
                                                     break;
                                                 }
                                               }

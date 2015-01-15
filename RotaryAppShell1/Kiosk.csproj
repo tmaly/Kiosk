@@ -53,7 +53,12 @@
     <Reference Include="DevExpress.Data.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Mvvm.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2.UI, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Controls.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.NavBar.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.PdfViewer.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpf.Ribbon.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="GalaSoft.MvvmLight.Extras.WPF45">
       <HintPath>..\packages\MvvmLightLibs.4.3.31.1\lib\net45\GalaSoft.MvvmLight.Extras.WPF45.dll</HintPath>
     </Reference>
@@ -94,6 +99,8 @@
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Compile Include="Common\XMLParserAttribute.cs" />
+    <Compile Include="DAL\XMLDataParser.cs" />
     <Compile Include="Models\AboutInfo.cs" />
     <Compile Include="Models\DonorBio.cs" />
     <Compile Include="Models\DonorLevel.cs" />
@@ -216,12 +223,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Common\" />
     <Folder Include="Config\Configuration\Home\" />
     <Folder Include="Config\Configuration\Newsletter\" />
     <Folder Include="Config\Donor Levels\" />
     <Folder Include="Config\Donors\" />
-    <Folder Include="DAL\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Config\About Pages.xml" />
@@ -273,9 +278,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Config\PageBackgrounds\rotaryMap.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Views\mockVideo.PNG" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Config\PageBackgrounds\mockVideo.JPG" />

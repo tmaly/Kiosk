@@ -6,17 +6,27 @@
              xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="Kiosk.Views.AboutInfoView" 
              mc:Ignorable="d" 
              d:DesignHeight="1080" d:DesignWidth="1920">
-    <Grid>
+    <Grid Margin="0,-7,0,7">
         <Grid.Background>
             <ImageBrush>
                 <ImageBrush.ImageSource>
-                    <ImageSource>../Config/PageBackgrounds/back2.jpg</ImageSource>
+                    <ImageSource>../Config/PageBackgrounds/default.jpg</ImageSource>
                 </ImageBrush.ImageSource>
             </ImageBrush>
-        </Grid.Background>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center">
-            <Button x:Name="buttonSelectBack" Command="{Binding NavToNewControlCommand}" CommandParameter="Back" Margin="50,50" Background="Coral" BorderThickness="5" BorderBrush="Black" Content="Back"/>
+        </Grid.Background>        
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="bottom" Margin="10,10,10,10">
+            <ItemsControl ItemsSource="{Binding ButtonList}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Command="{Binding VMLink}" Content="{Binding Name}" CommandParameter="{Binding Command}" Width="175" Height="60" Margin="10,10,10,10"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </StackPanel>
+
+        <TextBox HorizontalAlignment="Left" Height="93" Margin="281,950,0,0" TextWrapping="Wrap" Text="Donor Slide View" VerticalAlignment="Top" Width="1455" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="790" Margin="281,81,0,0" TextWrapping="Wrap" Text="Content " VerticalAlignment="Top" Width="798"/>
+        <TextBox HorizontalAlignment="Left" Height="458" Margin="1147,81,0,0" TextWrapping="Wrap" Text="Image" VerticalAlignment="Top" Width="708"/>
 
     </Grid>
 </UserControl>

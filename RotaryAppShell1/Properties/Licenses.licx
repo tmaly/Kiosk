@@ -1,1 +1,6 @@
 DevExpress.Xpf.Editors.ButtonEdit, DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Core.UniformStackPanel, DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Bars.GalleryControl, DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Bars.BarManager, DevExpress.Xpf.Core.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.WindowsUI.SlideView, DevExpress.Xpf.Controls.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a
+DevExpress.Xpf.Controls.Book, DevExpress.Xpf.Controls.v14.2, Version=14.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a

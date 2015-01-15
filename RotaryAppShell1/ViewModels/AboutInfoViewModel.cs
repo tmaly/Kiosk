@@ -8,6 +8,8 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using Kiosk.Models;
 using Kiosk.Views;
+using System.Collections.ObjectModel;
+using Kiosk.DAL;
 
 namespace Kiosk.ViewModels
 {
@@ -15,51 +17,37 @@ namespace Kiosk.ViewModels
     {
         private readonly MasterWindowViewModel parentVm;
 
+        private IDictionary<string, Action<MasterWindowViewModel>> navGuide;
+
         private List<AboutInfo> aboutPages;
         public AboutInfoViewModel(MasterWindowViewModel parentVm)
         {
             this.parentVm = parentVm;
-
-            //load the about pagers from the xml
-            aboutPages = LoadAboutPagesFromXML();
+            LoadAboutPagesFromXML();
         }
 
-        private List<AboutInfo> LoadAboutPagesFromXML()
+        private void LoadAboutPagesFromXML()
         {
-            List<AboutInfo> allPages = new List<AboutInfo>();
-
-            String aboutConfig = @"C:\Clients\Rotary\rotary demos\rotary demos\WPF\RotaryAppShell1\RotaryAppShell1\Config\About Pages.xml";
-            //@"file://vmware-host/Shared%20Folders/Documents/dev/WPF/RotaryAppShell1/RotaryAppShell1/Config/About Pages.xml";
-
-            var aboutPages = from page in XDocument.Load(aboutConfig).DescendantNodes() select page;
-            
-            foreach (var page in aboutPages)
+            var data  = new XMLDataParser().Collect<AboutButton>();
+            data.ForEach(x => 
             {
-                AboutInfo ai = new AboutInfo();
-                allPages.Add(ai);
-            }
+                x.VMLink = this.NavToNewControlCommand;
+                _aboutData.Add(x);
+            });
 
-            return allPages;
+            _aboutData.Add(new AboutButton { Command = "Home", Name = "Home", ID = "2", VMLink = this.NavToNewControlCommand }); 
         }
+
+        private readonly ObservableCollection<AboutButton> _aboutData = new ObservableCollection<AboutButton>();
+        public ObservableCollection<AboutButton> ButtonList { get { return _aboutData; } }
 
         private RelayCommand<string> navToNewControlCommand;
-        public GalaSoft.MvvmLight.Command.RelayCommand<string> NavToNewControlCommand
+        public RelayCommand<string> NavToNewControlCommand
         {
             get
             {
-                return navToNewControlCommand
-                    ?? (navToNewControlCommand = new RelayCommand<string>(
-                                          val =>
-                                          {
-                                              switch (val)
-                                              {
-                                                  case "Back":
-                                                  {
-                                                      parentVm.CurrentUserControl = new HomeView(parentVm);
-                                                      break;
-                                                  }
-                                              }
-                                          }));
+                return navToNewControlCommand ?? (navToNewControlCommand = new RelayCommand<string>(
+                                          val => this.parentVm.NavTo(val)));
             }
         }
     }
